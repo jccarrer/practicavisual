@@ -8,11 +8,9 @@ php:
   - hhvm
   - nightly
   
-script: phpunit src/Email.php
-  
-  
-#  before_script: 
-#  - composer install --no-interaction
+ before_script: 
+ - composer install --no-interaction
+ 
 # script: 
 #  - vendor/bin/phpunit
 
